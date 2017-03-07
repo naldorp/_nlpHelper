@@ -1,5 +1,5 @@
 var db = require('mongodb').MongoClient;
-var _connectionString = 'mongodb://localhost:27017/nlpHelper';
+var config = require('../../config');
 
 module.exports = function(req, res, callback) {
     var message = req.query.message;
@@ -7,7 +7,7 @@ module.exports = function(req, res, callback) {
     
     if (entities.indexOf('date') > -1) {
         
-        db.connect(_connectionString, function(err, db) {
+        db.connect(config.mongo_conn, function(err, db) {
             if (err) console.error(err);
 
             db.collection('date').find({

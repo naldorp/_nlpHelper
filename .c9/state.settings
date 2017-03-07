@@ -18,8 +18,8 @@
             "meta": {
                 "accessList": [
                     "tab5",
-                    "tab4",
                     "tab0",
+                    "tab4",
                     "tab1"
                 ]
             },
@@ -38,8 +38,8 @@
                             "timestamp": 1488563430498
                         },
                         "filter": true,
-                        "title": "bash - \"root@Isa: ~/workspaces/_nlpTest\" ",
-                        "tooltip": "bash - \"root@Isa: ~/workspaces/_nlpTest\" ",
+                        "title": "export - \"root@Isa: ~/workspaces/_nlpTest\" ",
+                        "tooltip": "export - \"root@Isa: ~/workspaces/_nlpTest\" ",
                         "terminal": {
                             "id": "devel_891",
                             "cwd": "",
@@ -218,15 +218,15 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 5,
-            "@document": 10,
+            "@document": 13,
             "@form": 5,
             "@immediate": 1,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 2,
-            "@session": 9,
-            "@tab": 10,
-            "@undoManager": 10
+            "@session": 12,
+            "@tab": 13,
+            "@undoManager": 13
         }
     },
     "findinfiles": {
@@ -245,7 +245,7 @@
     "panecycle": {
         "json()": [
             "tab5",
-            "tab9"
+            "tab2"
         ]
     },
     "panels": {
@@ -283,7 +283,10 @@
                 "/entities/time",
                 "/entities/location/models",
                 "/entities/location",
-                "/entities/date"
+                "/entities/date",
+                "/New Folder",
+                "/config",
+                "/entities"
             ]
         }
     },
@@ -303,12 +306,12 @@
             "focus": "tab5",
             "meta": {
                 "accessList": [
-                    "tab9",
                     "tab2",
                     "tab7",
+                    "tab12",
+                    "tab8",
                     "tab3",
-                    "tab6",
-                    "tab8"
+                    "tab6"
                 ]
             },
             "name": "pane0",
@@ -321,39 +324,17 @@
                         "tab2"
                     ],
                     "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1488889965789
+                        },
                         "filter": true,
                         "title": "index.js",
                         "tooltip": "/index.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 300,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 32,
-                                    "column": 40
-                                },
-                                "end": {
-                                    "row": 32,
-                                    "column": 40
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "b3be8db63847e67aadf7df6e4a39869e01b9e245",
-                        "meta": {
-                            "timestamp": 1488845061014
-                        },
-                        "changed": false
+                        "ace": {}
                     },
                     "editorType": "ace",
-                    "active": false
+                    "active": true
                 },
                 {
                     "type": "tab",
@@ -449,7 +430,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1488848588693
+                            "timestamp": 1488889558443
                         },
                         "filter": true,
                         "title": "index.js",
@@ -467,63 +448,37 @@
                         "tab8"
                     ],
                     "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1488889596664
+                        },
                         "filter": true,
                         "title": "index.js",
                         "tooltip": "/entities/location/index.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 300,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 34,
-                                    "column": 26
-                                },
-                                "end": {
-                                    "row": 34,
-                                    "column": 26
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 13,
-                                "state": "no_regex",
-                                "mode": "ace/mode/javascript"
-                            }
-                        },
-                        "hash": "9e83165bec11c2f2ac0ebf138ae9a584aba7c699",
-                        "meta": {
-                            "timestamp": 1488848577682
-                        },
-                        "changed": false
+                        "ace": {}
                     },
                     "editorType": "ace",
                     "active": false
                 },
                 {
                     "type": "tab",
-                    "name": "tab9",
-                    "path": "/README.md",
+                    "name": "tab12",
+                    "path": "/config/index.js",
                     "className": [
-                        "tab9"
+                        "tab12"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1488888533813
+                            "timestamp": 1488889485692
                         },
                         "filter": true,
-                        "title": "README.md",
-                        "tooltip": "/README.md",
+                        "title": "index.js",
+                        "tooltip": "/config/index.js",
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": true
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -533,7 +488,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/Untitled"
+            "/index.js"
         ]
     }
 }
