@@ -1,0 +1,77 @@
+[{
+    "q": "hoje",
+    "details":{
+        "name": "Hoje",
+        "expression": "(function(){ return new Date();})()"
+    }
+},
+{
+    "q": "amanha",
+    "details":{
+        "name": "Amanhã",
+        "expression": "(function(){var a = new Date(); a.setDate(a.getDate()+1); return a;})()"
+    }
+},
+{
+    "q": "ontem",
+    "details":{
+        "name": "Ontem",
+         "expression": "(function(){var a = new Date(); a.setDate(a.getDate()-1); return a;})()"
+    }
+},
+{
+    "q": "depois de amanha",
+    "details":{
+        "name": "Depois de Amanhã",
+         "expression": "(function(){var a = new Date(); a.setDate(a.getDate()+2); return a;})()"
+    }
+},
+{
+    "q": "segunda-feira",
+    "details":{
+        "name": "Segunda-Feira",
+        "expression": "(function(){var day_index = 1; var now = new Date(); var index = now.getDay() - day_index; if(index <0){ index = index*-1;}  if(day_index <= now.getDay()){now.setDate(now.getDate()+ (7-index)); return now;} else { now.setDate(now.getDate() + index); return now;}})()"
+    }
+},
+{
+    "q": "terca-feira",
+    "details":{
+        "name": "Terça-Feira",
+        "expression": "(function(){var day_index = 2; var now = new Date(); var index = now.getDay() - day_index; if(index <0){ index = index*-1;}  if(day_index <= now.getDay()){now.setDate(now.getDate()+ (7-index)); return now;} else { now.setDate(now.getDate() + index); return now;}})()"
+    }
+},
+{
+    "q": "quarta-feira",
+    "details":{
+        "name": "Quarta-Feira",
+        "expression": "(function(){var day_index = 3; var now = new Date(); var index = now.getDay() - day_index; if(index <0){ index = index*-1;}  if(day_index <= now.getDay()){now.setDate(now.getDate()+ (7-index)); return now;} else { now.setDate(now.getDate() + index); return now;}})()"
+    }
+},
+{
+    "q": "quinta-feira",
+    "details":{
+        "name": "Quinta-Feira",
+        "expression": "(function(){var day_index = 4; var now = new Date(); var index = now.getDay() - day_index; if(index <0){ index = index*-1;}  if(day_index <= now.getDay()){now.setDate(now.getDate()+ (7-index)); return now;} else { now.setDate(now.getDate() + index); return now;}})()"
+    }
+},
+{
+    "q": "sexta-feira",
+    "details":{
+        "name": "Sexta-Feira",
+        "expression": "(function(){var day_index = 5; var now = new Date(); var index = now.getDay() - day_index; if(index <0){ index = index*-1;}  if(day_index <= now.getDay()){now.setDate(now.getDate()+ (7-index)); return now;} else { now.setDate(now.getDate() + index); return now;}})()"
+    }
+},
+{
+    "q": "sabado",
+    "details":{
+        "name": "Sábado",
+        "expression": "(function(){var day_index = 6; var now = new Date(); var index = now.getDay() - day_index; if(index <0){ index = index*-1;}  if(day_index <= now.getDay()){now.setDate(now.getDate()+ (7-index)); return now;} else { now.setDate(now.getDate() + index); return now;}})()"
+    }
+},
+{
+    "q": "domingo",
+    "details":{
+        "name": "Domingo",
+        "expression": "(function(){var day_index = 0; var now = new Date(); var index = now.getDay() - day_index; if(index <0){ index = index*-1;}  if(day_index <= now.getDay()){now.setDate(now.getDate()+ (7-index)); return now;} else { now.setDate(now.getDate() + index); return now;}})()"
+    }
+}]

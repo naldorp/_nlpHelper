@@ -1,0 +1,1 @@
+mongoimport --db nlpHelper --collection location --drop --jsonArray  --file ./br_cities_final.json
