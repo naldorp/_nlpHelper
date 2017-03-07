@@ -31,6 +31,9 @@ module.exports = function(req, res, callback) {
             })
         });
     }
+    else{
+        callback(req,res);
+    }
 }
 
 
