@@ -25,7 +25,10 @@ module.exports = function(req, res, callback) {
                 if (err) console.error(err);
 
                 if (items.length > 0) {
-                    res.locals.result.entities["location"] = [items[0].details.name];
+                    res.locals.result.entities.location = {
+                        "text": items[0].details.name,
+                        "value": items[0].details.name
+                    }
                 }
                 callback(req,res);
             })

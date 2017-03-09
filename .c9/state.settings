@@ -12,14 +12,13 @@
     },
     "console": {
         "@expanded": true,
-        "@height": 207,
+        "@height": 298,
         "@maximized": "false",
         "json()": {
             "meta": {
                 "accessList": [
-                    "tab5",
-                    "tab0",
                     "tab4",
+                    "tab0",
                     "tab1"
                 ]
             },
@@ -38,13 +37,13 @@
                             "timestamp": 1488563430498
                         },
                         "filter": true,
-                        "title": "export - \"root@Isa: ~/workspaces/_nlpTest\" ",
-                        "tooltip": "export - \"root@Isa: ~/workspaces/_nlpTest\" ",
+                        "title": "bash - \"root@Isa: ~/workspaces/_nlpTest\" ",
+                        "tooltip": "bash - \"root@Isa: ~/workspaces/_nlpTest\" ",
                         "terminal": {
                             "id": "devel_891",
                             "cwd": "",
-                            "width": 1094,
-                            "height": 181
+                            "width": 1648,
+                            "height": 272
                         }
                     },
                     "editorType": "terminal",
@@ -58,34 +57,12 @@
                         "tab1"
                     ],
                     "document": {
+                        "changed": false,
+                        "meta": {},
                         "filter": true,
                         "title": "Immediate (Javascript (browser))",
                         "tooltip": "Immediate (Javascript (browser))",
                         "immediate": {
-                            "folds": [],
-                            "scrolltop": 1195,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 89,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 89,
-                                    "column": 0
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 68,
-                                "state": "start",
-                                "mode": "ace/mode/javascript"
-                            },
                             "type": "jsbrowser",
                             "history": [
                                 "new Date().toDateString()",
@@ -138,10 +115,7 @@
                                 "\"brasília\".replace(/[^\\w\\s]/gi, '')"
                             ],
                             "pos": -1
-                        },
-                        "hash": "cb36e3d10be09f09f88ac6d4f980c71d79bba6fb",
-                        "meta": {},
-                        "changed": false
+                        }
                     },
                     "editorType": "immediate",
                     "active": false
@@ -151,7 +125,8 @@
                     "name": "tab4",
                     "path": "",
                     "className": [
-                        "tab4"
+                        "tab4",
+                        "focus"
                     ],
                     "document": {
                         "changed": false,
@@ -159,39 +134,13 @@
                             "timestamp": 1488804204243
                         },
                         "filter": true,
-                        "title": "mongo - \"root@Isa: ~/workspaces/_nlpTest\" ",
-                        "tooltip": "mongo - \"root@Isa: ~/workspaces/_nlpTest\" ",
+                        "title": "bash - \"root@Isa: ~/workspaces/_nlpTest\" ",
+                        "tooltip": "bash - \"root@Isa: ~/workspaces/_nlpTest\" ",
                         "terminal": {
                             "id": "devel_845",
                             "cwd": "",
-                            "width": 1094,
-                            "height": 181
-                        }
-                    },
-                    "editorType": "terminal",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab5",
-                    "path": "",
-                    "className": [
-                        "tab5",
-                        "focus"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1488842941938
-                        },
-                        "filter": true,
-                        "title": "bash - \"root@Isa: ~/workspaces/_nlpHelper\" ",
-                        "tooltip": "bash - \"root@Isa: ~/workspaces/_nlpHelper\" ",
-                        "terminal": {
-                            "id": "devel_933",
-                            "cwd": "",
-                            "width": 1094,
-                            "height": 181
+                            "width": 1648,
+                            "height": 272
                         }
                     },
                     "editorType": "terminal",
@@ -215,18 +164,18 @@
     },
     "ext": {
         "counters": {
-            "@ace": 1,
+            "@ace": 2,
             "@acestatus": 1,
             "@divider": 5,
-            "@document": 13,
+            "@document": 7,
             "@form": 5,
             "@immediate": 1,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 2,
-            "@session": 12,
-            "@tab": 13,
-            "@undoManager": 13
+            "@session": 7,
+            "@tab": 7,
+            "@undoManager": 7
         }
     },
     "findinfiles": {
@@ -244,8 +193,8 @@
     },
     "panecycle": {
         "json()": [
-            "tab5",
-            "tab2"
+            "tab4",
+            "tab6"
         ]
     },
     "panels": {
@@ -282,11 +231,10 @@
                 "/",
                 "/entities/time",
                 "/entities/location/models",
-                "/entities/location",
+                "/routes",
+                "/entities",
                 "/entities/date",
-                "/New Folder",
-                "/config",
-                "/entities"
+                "/entities/location"
             ]
         }
     },
@@ -303,15 +251,12 @@
     },
     "tabs": {
         "json()": {
-            "focus": "tab5",
+            "focus": "tab4",
             "meta": {
                 "accessList": [
-                    "tab2",
-                    "tab7",
-                    "tab12",
-                    "tab8",
-                    "tab3",
-                    "tab6"
+                    "tab6",
+                    "tab5",
+                    "tab2"
                 ]
             },
             "name": "pane0",
@@ -326,7 +271,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1488889965789
+                            "timestamp": 1488889965313
                         },
                         "filter": true,
                         "title": "index.js",
@@ -334,103 +279,19 @@
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": true
-                },
-                {
-                    "type": "tab",
-                    "name": "tab3",
-                    "path": "/entities/date/models/day_expressions.json",
-                    "className": [
-                        "tab3"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "day_expressions.json",
-                        "tooltip": "/entities/date/models/day_expressions.json",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 13,
-                                    "column": 2
-                                },
-                                "end": {
-                                    "row": 13,
-                                    "column": 2
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "dc52acd888e60f29f35202317007117d33f61444",
-                        "meta": {
-                            "timestamp": 1488842868542
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
                     "active": false
                 },
                 {
                     "type": "tab",
-                    "name": "tab6",
-                    "path": "/#trash/commands.txt",
-                    "className": [
-                        "tab6"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "commands.txt",
-                        "tooltip": "/#trash/commands.txt",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 0,
-                                    "column": 98
-                                },
-                                "isBackwards": true
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "540af5045ab4c652e6bdab67135cf4720c982aae",
-                        "meta": {
-                            "timestamp": 1488825579305
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab7",
+                    "name": "tab5",
                     "path": "/entities/date/index.js",
                     "className": [
-                        "tab7"
+                        "tab5"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1488889558443
+                            "timestamp": 1489083160224
                         },
                         "filter": true,
                         "title": "index.js",
@@ -442,15 +303,15 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab8",
+                    "name": "tab6",
                     "path": "/entities/location/index.js",
                     "className": [
-                        "tab8"
+                        "tab6"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1488889596664
+                            "timestamp": 1489083369889
                         },
                         "filter": true,
                         "title": "index.js",
@@ -458,27 +319,7 @@
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab12",
-                    "path": "/config/index.js",
-                    "className": [
-                        "tab12"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1488889485692
-                        },
-                        "filter": true,
-                        "title": "index.js",
-                        "tooltip": "/config/index.js",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
+                    "active": true
                 }
             ],
             "skin": "editor_tab",
@@ -488,7 +329,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/index.js"
+            "/entities/location/index.js"
         ]
     }
 }

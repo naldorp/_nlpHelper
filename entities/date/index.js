@@ -27,7 +27,7 @@ module.exports = function(req, res, callback) {
 
                 if (items.length > 0) {
                     res.locals.result.entities.date = {
-                        "name": items[0].details.name,
+                        "text": items[0].details.name,
                         "value": eval(items[0].details.expression)
                     }
                 }
